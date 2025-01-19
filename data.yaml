@@ -1,7 +1,7 @@
-path: /FiredetectyoloV8/fire_dataset
-train: /FiredetectyoloV8/fire_dataset/train/images
-val: /FiredetectyoloV8/fire_dataset/val/images
-test: /FiredetectyoloV8/fire_dataset/test/images
+path: /fire_dataset
+train: /fire_dataset/train/images
+val: /fire_dataset/val/images
+test: /fire_dataset/test/images
 nc: 1
 names: ['fire']
 
