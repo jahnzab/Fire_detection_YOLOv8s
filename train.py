@@ -7,7 +7,7 @@ model = YOLO('yolov8s.pt')  # when executing this file will automatically downlo
 # Train the model
 model.train(
     data='data.yaml',  # Path to the YAML file
-    epochs=1,          # Number of epochs to train
+    epochs=50,          # Number of epochs to train
     batch=32,           # Batch size
     imgsz=640           # Image size for training
 )
